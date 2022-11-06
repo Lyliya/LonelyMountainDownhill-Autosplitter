@@ -20,8 +20,6 @@ update
     if (vars.level_finished && current.current_cp < current.cp_count) {
         vars.level_finished = false;
     }
-    print("Total CP:" + current.cp_count);
-    print("Current CP:" + current.current_cp);
 }
 
 startup
